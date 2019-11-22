@@ -39,7 +39,6 @@ ROTEIRO
 }
 
 Documentação: https://ngrx.io
-
 Exemplos e artigos:
     https://blog.angularindepth.com/how-to-start-flying-with-angular-and-ngrx-b18e84d444aa
     https://medium.com/@coco.boudard/starting-with-angular-and-ngrx-store-75e92c90d346
@@ -59,46 +58,4 @@ Scripts para instalação e criação de arquivos:
 
   ng add @ngrx/entity
   ng add @ngrx/data
-
-
-ROTEIRO - Meetup v1
-  * Apresentação dos palestrantes - 21s
-  * Resumo do que será falado - 1m7s
-  * Explicar Gerencimaneto de Estado - ?
-  * Falar sobre NGRX e  fluxo de dados - 4m42s
-  * Principais novidades - 2m50s
-  * Depara do v7 vs v8 - 5m20s
-  * Live Code - ?
-  * Perguntas - ?
-  * Agradece - Links Úteis - ?
-
-ROTEIRO - Meetup v2
-  * Apresentação dos palestrantes - 21s
-  * Resumo do que será falado - 1m7s
-  * Explicar Gerencimaneto de Estado - ?
-  * Falar sobre NGRX e  fluxo de dados - 4m42s
-  * Principais novidades - 2m50s
-  * Depara do v7 vs v8 - 5m20s
-  * Live Code - ?
-  * Perguntas - ?
-  * Agradece - Links Úteis - ?
-
-Checklist Auditório
-  Checar microfone
-  Testar projetor/TV
-
-* Apresentação resumida do que será falado - thiago
-* Apresentação dos palestrantes - Thiago e Rodrigo
-* agenda da talk - Rodrigo
-* Explicar Gerencimaneto de Estado - Rodrigo
-* Falar sobre NGRX - Thiago
-* Fluxo de dados - Rodrigo
-* Principais novidades - Thiago
-* Depara do v7 vs v8 - Rodrigo
-* Live Code - Rodrigo
-* Agradece - Thiago Rodrigo
-* Perguntas - Thiago Rodrigo
-* Links Úteis
-
-
 

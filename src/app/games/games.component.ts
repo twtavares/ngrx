@@ -8,8 +8,11 @@ import * as fromGames from './store/reducers';
 // Selectors
 import * as GamesSelectors from './store/selectors/games.selector';
 
+import { GamesService } from '../games/services/games.service'
+
 // Actions
 import { GamesListRequest } from './store/actions/games.actions';
+import { GameInterface } from './interfaces/games.interface';
 
 @Component({
   selector: 'app-games',
@@ -20,21 +23,15 @@ export class GamesComponent implements OnInit {
   public columnsToDisplay = ['name', 'popularity', 'button'];
   public labelColumns = { name: 'Nome', popularity: 'popularity', button: ''};
   public dataSource: any;
-  public favorites = [];
-  public favorites$: Observable<any>;
-  public games$: Observable<any>;
 
   constructor(
-    private store: Store<fromGames.GamesState>
+    private games: GamesService
   ) { }
 
   ngOnInit() {
-    this.store.dispatch(GamesListRequest());
-    this.games$ = this.store.pipe(select(GamesSelectors.getGamesListState));
-    this.games$.subscribe(store => {
-      this.dataSource = store.data.map(el => el.game);
-    });
-
+    this.games.getGamesTop().subscribe((games: any) => {
+      this.dataSource = games.map(el => el.game);
+    })
   }
 
 }

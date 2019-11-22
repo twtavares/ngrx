@@ -1,17 +1,7 @@
 <div class="row col-12 games" >
-  <div class="games__list col-8">
+  <div class="games__list col-12">
     <app-games-list
-      [gamesList$]=dataSource
-      [columnsToDisplay$]=columnsToDisplay
-      [labelColumns$]=labelColumns>
+      [gamesList]=dataSource>
     </app-games-list>
   </div>
-  <!-- <div class="games__favorites col-4">
-      <app-favorite-list
-        ($removeFavorite)='removeFavorite($event)'
-        [favoriteList$]='favorites'>
-      </app-favorite-list>
-  </div>
-  ($addFavorite)='addFavorite($event)' inserir no game list
--->
 </div>

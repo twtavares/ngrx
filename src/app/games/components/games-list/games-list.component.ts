@@ -14,14 +14,5 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
   ],
 })
 export class GamesListComponent {
-  @Input() gamesList$: any;
-  @Input() columnsToDisplay$: string[];
-  @Input() labelColumns$: any[];
-  @Output() $addFavorite: EventEmitter<any> = new EventEmitter();
-
-  public expandedElement: any;
-
-  addFavorite(game) {
-    this.$addFavorite.emit(game);
-  }
+  @Input() gamesList: any;
 }
