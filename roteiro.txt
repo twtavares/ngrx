@@ -1,0 +1,39 @@
+ROTEIRO
+- Instalar o NGRX - Branch: inicial;
+  - instalação actions, reducers e effects com ng add,
+  - instalação do Redux devtools com ng add
+  - Explanando Devtools
+  =>Requisito: Angular 8 Instalado
+
+- Estrutura da store básica - branch state-forRoot
+  - Arquitetura da store no modulo raiz
+  - Explicação básica
+    - Action
+    - Effects
+    - Reducers
+    - Selectors
+  => PPT: Fluxograma da interação entre Actions, Effects, Reducers
+  => Requisito: Estrutura do state login/auth
+
+- Estrutura da store feature- Branch state-forFeature
+  - Arquitetura da store no modulo feature
+  - Action
+  - Effects
+  - Reducers
+  - Selectors
+  => PPT: Slide com tópicos das melhorias e difereças entre as versões
+  => Requisito: Serviço que busca dados
+
+- ESTRUTURA DA STORE
+{
+  auth: {},
+  games: {
+    list: {
+      data: [],
+      error: {},
+      loading: false,
+      loaded: false
+    },
+    favorites: [],
+  }
+}
