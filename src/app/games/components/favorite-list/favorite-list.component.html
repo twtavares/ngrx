@@ -1,0 +1,21 @@
+<mat-card>
+  <h3>Favoritos</h3>
+  <mat-list>
+    <mat-list-item *ngFor="let favorite of favoriteList$">
+      <img matListAvatar src="{{favorite?.logo?.medium}}" alt="...">
+      <p matLine>
+        <span> {{favorite?.name}} </span>
+        <!-- <span class="demo-2"> -- {{favorite.genre}} </span> -->
+      </p>
+      <button
+          mat-icon-button
+          color="warn"
+          aria-label="Favorite"
+          (click)='removeFavorite(favorite)'
+          >
+          remover
+        </button>
+      <mat-divider></mat-divider>
+    </mat-list-item>
+  </mat-list>
+</mat-card>

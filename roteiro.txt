@@ -37,3 +37,68 @@ ROTEIRO
     favorites: [],
   }
 }
+
+Documentação: https://ngrx.io
+
+Exemplos e artigos:
+    https://blog.angularindepth.com/how-to-start-flying-with-angular-and-ngrx-b18e84d444aa
+    https://medium.com/@coco.boudard/starting-with-angular-and-ngrx-store-75e92c90d346
+    https://medium.com/better-programming/sync-your-state-in-local-storage-with-ngrx-9d6ceba93fc0
+    https://itnext.io/level-up-your-ngrx-game-42652afc25bd
+    https://github.com/ngrx/platform
+    https://auth0.com/blog/faster-app-development-with-ngrx-8/
+    https://medium.com/ngrx/announcing-ngrx-version-8-ngrx-data-create-functions-runtime-checks-and-mock-selectors-a44fac112627
+    https://medium.com/@RupaniChirag/simple-angular-app-using-ngrx-8-store-and-effects-factory-methods-f3423b9f6d3b
+
+Scripts para instalação e criação de arquivos:
+  ng add @ngrx/store
+  ng add @ngrx/effects
+  ng add @ngrx/store-devtools
+  ng add @ngrx/router-store
+  ng add @ngrx/schematics
+
+  ng add @ngrx/entity
+  ng add @ngrx/data
+
+
+ROTEIRO - Meetup v1
+  * Apresentação dos palestrantes - 21s
+  * Resumo do que será falado - 1m7s
+  * Explicar Gerencimaneto de Estado - ?
+  * Falar sobre NGRX e  fluxo de dados - 4m42s
+  * Principais novidades - 2m50s
+  * Depara do v7 vs v8 - 5m20s
+  * Live Code - ?
+  * Perguntas - ?
+  * Agradece - Links Úteis - ?
+
+ROTEIRO - Meetup v2
+  * Apresentação dos palestrantes - 21s
+  * Resumo do que será falado - 1m7s
+  * Explicar Gerencimaneto de Estado - ?
+  * Falar sobre NGRX e  fluxo de dados - 4m42s
+  * Principais novidades - 2m50s
+  * Depara do v7 vs v8 - 5m20s
+  * Live Code - ?
+  * Perguntas - ?
+  * Agradece - Links Úteis - ?
+
+Checklist Auditório
+  Checar microfone
+  Testar projetor/TV
+
+* Apresentação resumida do que será falado - thiago
+* Apresentação dos palestrantes - Thiago e Rodrigo
+* agenda da talk - Rodrigo
+* Explicar Gerencimaneto de Estado - Rodrigo
+* Falar sobre NGRX - Thiago
+* Fluxo de dados - Rodrigo
+* Principais novidades - Thiago
+* Depara do v7 vs v8 - Rodrigo
+* Live Code - Rodrigo
+* Agradece - Thiago Rodrigo
+* Perguntas - Thiago Rodrigo
+* Links Úteis
+
+
+

@@ -1,17 +1,11 @@
 import { Action, createReducer, on } from '@ngrx/store';
 import { GameActions } from '../actions';
+import { GamesListState } from '../../interfaces/games.interface';
 
 export const gamesFeatureKey = 'games';
 
-export interface State {
-  data: object;
-  error: object;
-  loading: boolean;
-  loaded: boolean;
-}
-
-export const initialState: State = {
-  data: {},
+export const initialState: GamesListState = {
+  data: [],
   error: {},
   loading: false,
   loaded:  false
@@ -20,19 +14,19 @@ export const initialState: State = {
 const gamesReducer = createReducer(
   initialState,
 
-  on(GameActions.ListGamesRequest, state => ({
+  on(GameActions.GamesListRequest, state => ({
     ...state,
     loading: true
   })),
 
-  on(GameActions.ListGamesSuccess, (state, { games }) => ({
+  on(GameActions.GamesListSuccess, (state, { games }) => ({
     ...state,
     data: games,
     loading: false,
     loaded: true
   })),
 
-  on(GameActions.ListGamesFail, (state, { error }) => ({
+  on(GameActions.GamesListFail, (state, { error }) => ({
     ...state,
     error,
     loading: false,
@@ -41,6 +35,6 @@ const gamesReducer = createReducer(
 
 );
 
-export function reducer(state: State | undefined, action: Action) {
+export function reducer(state: GamesListState | undefined, action: Action) {
   return gamesReducer(state, action);
 }

@@ -1,6 +1,7 @@
+import { GamesComponent } from './games.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { GamesComponent } from './games.component'
+
 
 const routes: Routes = [
   {
@@ -8,6 +9,7 @@ const routes: Routes = [
     component: GamesComponent
   }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

@@ -1,3 +1,7 @@
+<style>
+
+</style>
+
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <img
@@ -7,7 +11,6 @@
   />
   <span>Seja bem vindo!</span>
     <div class="spacer"></div>
-  <p *ngIf="login"><small>Logado como: {{ login.user }} </small>| <button (click)="logout()">Sair</button></p>
 </div>
 
 <div class="content" role="main">
@@ -34,7 +37,6 @@
   </div>
 
   <div class="card-container">
-
     <router-outlet></router-outlet>
   </div>
 
