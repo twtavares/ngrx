@@ -38,6 +38,8 @@ ROTEIRO
   }
 }
 
+PPT: https://onedrive.live.com/view.aspx?resid=57F95F9AEEEF96F3!345&ithint=file%2cpptx&authkey=!AAlzX3WQ687ergo
+
 Documentação: https://ngrx.io
 
 Exemplos e artigos:
@@ -49,6 +51,7 @@ Exemplos e artigos:
     https://auth0.com/blog/faster-app-development-with-ngrx-8/
     https://medium.com/ngrx/announcing-ngrx-version-8-ngrx-data-create-functions-runtime-checks-and-mock-selectors-a44fac112627
     https://medium.com/@RupaniChirag/simple-angular-app-using-ngrx-8-store-and-effects-factory-methods-f3423b9f6d3b
+    https://ultimatecourses.com/blog/how-to-upgrade-your-angular-and-ngrx-apps-to-v8
 
 Scripts para instalação e criação de arquivos:
   ng add @ngrx/store
@@ -69,7 +72,7 @@ ROTEIRO - Meetup v1
   * Principais novidades - 2m50s
   * Depara do v7 vs v8 - 5m20s
   * Live Code - ?
-  * Perguntas - ?
+  * Perguntas - ? 
   * Agradece - Links Úteis - ?
 
 ROTEIRO - Meetup v2
